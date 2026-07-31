@@ -1,0 +1,25 @@
+{
+  "name": "teste-portdata",
+  "version": "1.0.0",
+  "description": "Esse projeto faz parte de um teste técnico para desenvolvedor backend, envolvendo Node.js e MySQL",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricio3005/teste-tecnico-nodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mauricio3005/teste-tecnico-nodeJS/issues"
+  },
+  "homepage": "https://github.com/mauricio3005/teste-tecnico-nodeJS#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mysql2": "^3.23.2"
+  }
+}
