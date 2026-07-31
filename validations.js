@@ -23,6 +23,9 @@ function validarTelefone(telefone) {
     if (digitos.length !== 10 && digitos.length !== 11) {
         return { erro: "Telefone deve conter 10 ou 11 dígitos (DDD + número)" }
     }
+    if (digitos.length === 11 && digitos[2] !== "9") {
+        return { erro: "Celular deve conter o nono dígito (DDD9XXXXXXXX)" }
+    }
     return { digitos }
 }
 

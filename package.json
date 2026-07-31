@@ -4,6 +4,7 @@
   "description": "Esse projeto faz parte de um teste técnico para desenvolvedor backend, envolvendo Node.js e MySQL",
   "main": "db.js",
   "scripts": {
+    "start": "node api_routs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

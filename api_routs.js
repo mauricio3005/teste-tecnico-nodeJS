@@ -72,7 +72,7 @@ app.delete("/contatos/:id", async (req,res) => {
         if(resultado.affectedRows === 0){
             return res.status(404).json({erro : "Contato não encontrado"})
         }
-        res.status(204).json({Mensagem : "Contato excluido com sucesso"})
+        res.status(204).send()
     } catch(erro){
         res.status(500).json({erro: erro.message})
     }
