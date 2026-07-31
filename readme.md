@@ -24,7 +24,7 @@ Tudo isso dentro de um banco mySQL com todas as validações adequadas.
 3. Validações:
     1. Implementar validações para garantir que os dados atendam aos critérios:
         - Nome: Mínimo de duas palavras, cada uma com pelo menos 3 letras
-        - Numero: Garantir o formato padrão
+        - Numero: Garantir o formato padrão brasileiro (DDD9XXXXXXXX)
 
 # Requisitos gerais:
 - Não podem haver comentários no código
